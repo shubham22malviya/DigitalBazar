@@ -1,0 +1,38 @@
+.carousel-caption {
+    top: 10vh;
+    bottom: auto;
+}
+.carousel-caption h1{
+    color: goldenrod;
+    font-size: 90px;
+    padding-top: 50px;
+}
+.carousel-caption p{
+    font-size: 45px;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+@media screen and (max-width: 780px) {
+    .carousel-caption h1{
+        
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .carousel-caption p{
+        font-size: 25px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+  }
+  @media screen and (min-width: 1080px) {
+    .carousel-caption h1{
+        
+        font-size: 110px;
+        padding-top: 30px;
+    }
+    .carousel-caption p{
+        font-size: 85px;
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+  }
