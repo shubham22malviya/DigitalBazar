@@ -20,7 +20,7 @@ export default function FOOTERM() {
                 Digital Bazar 
               </h6>
               <p>
-                Lorem ipsum dolor sit ipsum dolor sit  ipsum dolor sit ipsum dolor sit ipsum dolor sit ipsum dolor sit ipsum dolor sit
+                Noere dolor sit ipsum dolor sit  ipsum dolor sit ipsum dolor sit ipsum dolor sit ipsum dolor sit ipsum dolor sit
               </p>
             </MDBCol>
 
