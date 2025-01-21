@@ -15,15 +15,15 @@ const UserSchema=new Schema({
     },
     avtar:{
         type:"String",
-        required:true
+        // required:true
     },
     isAdmin:{
         type:"Boolean",
-        required:true
+        // required:true
     },
     created:{
         type:"Date",
-        required:true
+        // required:true
     },
     Address:{
         flat:{
