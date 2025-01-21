@@ -21,10 +21,10 @@ const UserSchema=new Schema({
         type:"Boolean",
         required:true
     },
-    created:{
-        type:"Date",
-        required:true
-    },
+    // created:{
+    //     type:"Date",
+    //     required:true
+    // },
     Address:{
         flat:{
             type:"String",
@@ -59,6 +59,8 @@ const UserSchema=new Schema({
             required:true
         },
     }
-});
+
+
+},{timestamps:true});
 const User=mongoose.model("User",UserSchema);
 module.exports=User
